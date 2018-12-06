@@ -35,14 +35,14 @@ public class HomeActivity extends AppCompatActivity {
         });
 
 
-
+ /*
         Button need_blood_btn = (Button) findViewById(R.id.get_blood_button);
         need_blood_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(HomeActivity.this, NeedBloodActivity.class));
             }
-        });
+        }); */
 
 
         Button update_profile_btn = (Button) findViewById(R.id.update_info_home_button);

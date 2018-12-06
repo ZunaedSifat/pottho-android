@@ -56,7 +56,7 @@ public class LoginActivity extends AppCompatActivity {
                 if (mobile_no.equals("123456789") && verification_code.equals("222222"))
 
                     startActivity(new Intent(LoginActivity.this, HomeActivity.class));
-                else if (mobile_no != null && verification_code.equals("111111"));
+                else if (mobile_no != null && verification_code.equals("111111"))
                     startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
             }
         });
