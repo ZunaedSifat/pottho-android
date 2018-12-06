@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ParamedicServiceActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/paramedic_question_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Which service(s) do you need?" />
+
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:text="Injection/Vaccination"/>
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Bandage"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Where do you need them?"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+
+            <EditText
+                android:id="@+id/paramedic_address_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:hint="Address"
+                android:inputType="text"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="When do you need them?"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+
+            <EditText
+                android:id="@+id/paramedic_time_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:hint="Date, time"
+                android:inputType="datetime"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Enter Contact Number"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+
+            <EditText
+                android:id="@+id/paramedic_contact_no_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:hint="Phone No."
+                android:inputType="phone"
+                />
+
+
+            <Button
+                android:id="@+id/book_paramedic_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="Book Paramedic"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAllCaps="false" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
